@@ -2,12 +2,40 @@ header{
     text-transform: uppercase;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     text-align: center;
-    background-color: rgb(0, 168, 235);
+    background-color: rgb(255, 0, 0);
     max-width: 80%;
     color: white;
     margin: 0;
     margin-top: 1rem;
-    border-radius: .3rem;
+    border-radius: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .6rem;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgb(211, 106, 106);
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    color: white;
     padding-top: .5rem;
     padding-bottom: .5rem;
+    border-radius: .3rem;
+}
+@media (min-width: 300px) and (max-width:700px){
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    hr{
+        display: flex;
+        width: 13rem;
+    }
 }
